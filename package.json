@@ -33,7 +33,7 @@
   ],
   "main": "./browser.js",
   "scripts": {
-    "preinstall": "node_modules/gulp/bin/gulp.js build",
+    "prepublish": "node_modules/gulp/bin/gulp.js build",
     "build-browser": "node_modules/gulp/bin/gulp.js build"
   },
   "license": "Apache 2"
