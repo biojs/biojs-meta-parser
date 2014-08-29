@@ -12,7 +12,7 @@ var join = path.join;
 var gzip = require('gulp-gzip');
 
 // build variables
-var outputFile = "biojs-meta-parser";
+var outputFile = "parser";
 var buildDir = "build";
 var browserFile = "browser.js";
 var browserifyOptions =  {};
