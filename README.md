@@ -7,3 +7,4 @@ biojs-meta-parser
 [![NPM downloads](http://img.shields.io/npm/dm/biojs-meta-parser.svg)](https://www.npmjs.org/package/biojs-meta-parser)
 
 
+Convenience CDN wrapper for all parser
