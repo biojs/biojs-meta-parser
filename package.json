@@ -1,0 +1,40 @@
+{
+  "name": "biojs-meta-parser",
+  "description": "Meta packages for bio parser",
+  "version": "0.0.1",
+  "homepage": "http://github.com/biojs/biojs-meta-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biojs/biojs-meta-parser"
+  },
+  "author": {
+    "name": "BioJS",
+    "email": "biojs-technical@googlegroups.com"
+  },
+  "dependencies": {
+    "biojs-io-clustal": "0.0.7",
+    "biojs-io-fasta": "0.0.9"
+  },
+  "devDependencies": {
+    "browserify": "~4.2.0",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-chmod": "^1.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-gzip": "0.0.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "mkdirp": "^0.5.0",
+    "shelljs": "^0.3.0",
+    "uglify-js": "~2.4.15"
+  },
+  "keywords": [
+    "biojs, meta"
+  ],
+  "main": "./browser.js",
+  "scripts": {
+    "preinstall": "node_modules/gulp/bin/gulp.js build",
+    "build-browser": "node_modules/gulp/bin/gulp.js build"
+  },
+  "license": "Apache 2"
+}
