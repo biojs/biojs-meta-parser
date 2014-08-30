@@ -10,12 +10,12 @@ biojs-meta-parser
 Convenience CDN wrapper for all parser
 
 ```
-<script src=//cdn.biojs-msa.org/parser/latest/parser.min.gz.js></script>
+<script src=//cdn.biojs.net/parser/latest/parser.min.gz.js></script>
 ```
 
 Yes you can either link to the minified, gzipped CDN version or download the dev version from S3 .
 
-[![Min version](http://img.shields.io/badge/prod-3kB-blue.svg)](https://cdn.biojs-msa.org/parser/latest/parser.min.gz.js)  
+[![Min version](http://img.shields.io/badge/prod-3kB-blue.svg)](https://cdn.biojs.net/parser/latest/parser.min.gz.js)  
 [![Dev version](http://img.shields.io/badge/dev-latest-yellow.svg)](https://s3-eu-west-1.amazonaws.com/biojs/parser/latest/parser.js) 
 
 
