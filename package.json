@@ -12,10 +12,11 @@
     "email": "biojs-technical@googlegroups.com"
   },
   "dependencies": {
-    "biojs-io-clustal": "0.0.7",
-    "biojs-io-fasta": "0.0.9",
-    "biojs-io-graduates": "0.0.3",
-    "biojs-io-newick": "0.0.4"
+    "biojs-io-clustal": "0.0.*",
+    "biojs-io-fasta": "0.0.*",
+    "biojs-io-graduates": "0.0.*",
+    "biojs-io-newick": "0.0.*",
+    "biojs-io-snipspector": "0.0.3"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
