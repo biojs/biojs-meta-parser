@@ -2,7 +2,7 @@ if (typeof biojs === 'undefined') {
   biojs = {} //Creates namespace biojs
 }
 
-if (typeof biojs === 'undefined') {
+if (typeof biojs.io === 'undefined') {
   module.exports = biojs.io = {} //Creates namespace biojs.io
 }
 
