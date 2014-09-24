@@ -1,7 +1,7 @@
 {
   "name": "biojs-meta-parser",
   "description": "Meta packages for bio parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/biojs/biojs-meta-parser",
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "uglify-js": "~2.4.15"
   },
   "keywords": [
-    "biojs, meta"
+    "biojs", "meta"
   ],
   "main": "./browser.js",
   "scripts": {
